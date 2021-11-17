@@ -1,0 +1,33 @@
+.movies {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin-top: 24px;
+}
+
+.movie {
+  background-color: #fff;
+  border: 2px solid purple;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 420px;
+
+  padding: 48px 24px;
+}
+
+.movie h3 {
+  font-size: 28px;
+
+  margin-bottom: 24px;
+}
+
+.movie div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie strong {
+  font-size: 20px;
+}
