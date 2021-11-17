@@ -21,7 +21,12 @@ export function HomePage() {
           'Preencha os campos direito, eu sei que tu ta fazendo de propósito.'
         );
 
-      await api.post('/movies', movie);
+      await api.post('/movies', movie, {
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+      });
 
       alert('Filme cadastrado com sucesso!');
       history.push('/movies');
