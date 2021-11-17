@@ -5,6 +5,12 @@
       "director": "Steven Spielberg",
       "title": "A volta dos que não foram",
       "year": 2021
+    },
+    {
+      "title": "Bela e a Fera",
+      "director": "Walt disney",
+      "year": 2000,
+      "id": 1
     }
   ]
 }
